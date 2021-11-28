@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+* {
+  margin: 0;
+}
+.signin {
+  display: flex;
+}
+
+/* .homepage {
+  background-color: lightblue;
+} */
+
+.signin_card {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.button_class {
+  margin: 25px auto 15px auto;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.header {
+  background-color: black;
+  padding-right: 5px;
+}
+.logo {
+  font-size: medium !important;
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+.button_header {
+  background-color: white;
+  color: black;
+  margin: 0px 10px;
+}
+
+.button_header:hover {
+  background-color: red;
+  color: white;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.file-field > .btn {
+  display: flex;
+  align-items: center;
+  color: white !important;
+}
+
+.post_card {
+  padding: 40px 25px;
+  max-width: 500px;
+  margin: 30px auto 10px auto;
+}
+.post_card > .button_class {
+  margin-bottom: 0px;
+}
+
+.file-field {
+  margin-top: 10px;
+}
+.card {
+  background-color: rgb(251, 252, 251);
+  padding: 15px 20px 30px 20px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  margin: auto;
+}
+.images > img {
+  min-width: 250px;
+  max-width: 600px;
+  height: 200px;
+}
+.photos {
+  width: 40%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.home_card {
+  max-width: 550px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin: 20px auto 20px auto;
+}
+
+.image_home {
+  object-fit: contain;
+  margin: 5px auto;
+  max-height: 350px;
+}
+
+.responsepage {
+  display: flex;
+  margin-top: 25px;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.resp_card {
+  text-align: justify;
+  max-width: 400px;
+}
+
+.respcomp,
+.querycomp {
+  width: 300px;
+}
+
+.input-field {
+  margin-top: 0px !important;
+}
+.like {
+  color: black;
+}
+
+.material-icons {
+  color: rgb(5, 56, 56);
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px !important;
+}
+/*  */
+.notcard {
+  display: flex;
+  max-width: 500px;
+  margin: auto !important;
+}
+
+.horizontal {
+  max-width: 250px !important;
+  box-shadow: 1px 2px 3px solid;
+  margin: 30px;
+  padding: 20px;
+  justify-content: center;
+  color: black !important;
+}
+/*  */
+.input-field {
+  padding: 10px !important;
+}
+.prof_pic {
+  max-width: 300px;
+  object-fit: contain;
+}
+
+.contactcard {
+  min-width: 280px;
+  max-width: 600px;
+  padding: 10px;
+  margin: 10px auto !important;
+}
+.searchpage {
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  flex-direction: row;
+  margin: auto;
+}
+.photos {
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.images > img {
+  min-width: 250px;
+  max-width: 400px;
+  height: 200px;
+}
+
+/* https://materializecss.com/icons.html
+<i class="large material-icons">event_available</i> 
+<i class="large material-icons">person_add</i> , mood,mood_bad
+account_box*/
