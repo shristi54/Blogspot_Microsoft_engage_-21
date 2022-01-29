@@ -15,8 +15,8 @@ ANS: -HTML
      -MongoDB for database 
      
 
-
-#Functionalities:
+#WHAT?
+Functionalities:
 1. POST
    -Create, delete,comment,like
    -ask me
@@ -31,3 +31,6 @@ ANS: -HTML
    
 4. SEARCH:
     - to search the topic to get the desired results
+
+#I HAVE ALSO DEPLOYED THIS PROJECT ON HEROKU
+LINK: https://msblogspot.herokuapp.com/
